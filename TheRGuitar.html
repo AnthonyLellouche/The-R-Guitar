@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TheRGuitar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TheRGuitar</title>
+</head>
+
+    <body>
+        <section class="page1">
+            <div>
+                <nav id="navBar">
+                    <div class="navBar-item">
+                        <img class="ImgLogo" src="./images/Logo.png" width="150px" style="float: left;"/>
+                        <a class="link" href="#page2">L'esprit R'Guitar</a>
+                        <a class="link" href="#page3">Nos grattes</a>
+                        <button class="favorite styled"type="button"><i style="font-size:24px" class="fa">&#xf07a;</i>Boutique</button>
+                        
+                    </div>
+                </nav>
+            </div>
+
+            <div>
+                <p class="ProverbeGuitare">Votre meilleur riff mérite</p>
+                <p class="ProverbeGuitareD">La meilleure guitare</p>
+            </div>
+        </section>
+
+        <section id="page2">
+            <p class="BanniereLespritRguitar">L'esprit R'Guitar</p>
+            <div class="div-categoryContainer">
+                <img src="./images/Montage.png" class="pictureguitariste-right" />
+                            <h2 class="section-title1">SEULE COMPTE LA MUSIQUE</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo libero, incidunt, officiis non provident laborum illo voluptatem a perspiciatis ab repellendus ducimus? Perspiciatis earum suscipit voluptate commodi consequatur saepe fugiat!</p>
+                            <h2 class="section-title2">DES BEATLES A NIRVANA</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus velit dolorem, a voluptatum non laborum consequatur, amet aspernatur vitae alias, illum deserunt nisi incidunt? Distinctio cumque quaerat sapiente laudantium minima.</p>
+                            <h2 class="section-title3">LE SON NOTRE METIER</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam repellat cupiditate, iste praesentium debitis voluptate a quae voluptatibus sapiente mollitia tenetur nobis architecto harum explicabo totam repellendus nostrum veniam!</p>
+            </div>
+        </section>
+
+        <section id="page3">
+            <p class="BanniereLesGrattes">NOS GRATTES</p>
+                <div class="div-categoryContainerGrattes">
+                            <h2 class="section-title4">LES GUITARES EN STOCK</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt porro, consequatur nisi eum nulla magni consequuntur quaerat totam repudiandae dolorem unde provident temporibus error odit vel, aliquam harum vitae?</p>
+                </div>
+                
+                <div id="blockGuitares">
+                    <div class="block">
+                        <img src="./images/guitar1.jpg" />
+                        <p class="nomGuitare">GIBSON CASINO</p>
+                        <p class="prixGuitare">2000,00€</p>
+                        <button style="font-size:12px">ACHETER</i></button>
+                    </div>
+                    <div class="block">
+                        <img src="./images/guitar2.jpg" />
+                        <p class="nomGuitare">LES PAUL PLUS TRANS BLUE</p>
+                        <p class="prixGuitare"><s>500,00€</s> 400,00€</p>
+                        <button style="font-size:12px">ACHETER</i></button>
+                    </div>
+                    <div class="block">
+                        <img src="./images/guitar3.jpg" />
+                        <p class="nomGuitare">FENDER STRATOCASTER</p>
+                        <p class="prixGuitare">3000,00€</p>
+                        <button style="font-size:12px">ACHETER</i></button>
+                    </div>
+                    <div class="block">
+                        <img src="./images/guitar4.jpg" />
+                        <p class="nomGuitare">BC RICH DOUBLE NECK</p>
+                        <p class="prixGuitare">2500,00€</p>
+                        <button style="font-size:12px">ACHETER</i></button>
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="page4">
+            <p class="BanniereContacteNous">CONTACTE NOUS</p>
+            <div class="div-categoryContainerContacteNous">
+                        <h2 class="section-title5">LAISSE NOUS UN MOT</h2>
+            </div>
+
+        <div id="blockFormulaire">
+
+            <div class="baliseNomPrenom">
+                 <label for="name">NOM ET PRENOM</label><br>
+                <input type="text" id="name" name="name" required size="45" placeholder="Anthony Lellouche">
+            </div>
+            
+            <div class="baliseEmailetTelephone">
+                <div class="textEmailetTelephone">
+                    <label for="name">EMAIL</label><br />
+                    <input type="email" id="email" pattern=".+@globex\.com" placeholder="an.lellouche@gmail.com" size="45" required >
+                </div>
+
+                <div class="textEmailetTelephone2">
+                    <label for="name">TELEPHONE</label><br />
+                    <input type="tel" id="phone" name="phone" size="45" placeholder="0606060606"required>
+                </div>
+
+            </div>
+
+            <div class="baliseMessage">
+                <p>MESSAGE</p>
+                <textarea id="story" name="story" rows="12" cols="115" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></textarea>
+                <button class="submit-button">VALIDER</button>
+            </div>
+        </div>
+
+        </section>
+    </body>
+</html>
